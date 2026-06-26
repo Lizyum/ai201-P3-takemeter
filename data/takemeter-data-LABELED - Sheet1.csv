@@ -1,0 +1,852 @@
+Label,Data,Notes
+Technical,"So I kill the WARBOT, it transforms into the celestial scion, right after wagstaff says his line, my game disconnects and goes into the previous save when I reconnect to my world. I've tried about 5 times, and the results are same. I'm confident enough to say that nothing from my side (connection, hardware, etc) is causing this. Has anyone else ever experienced this?","Notes: bug report / unexpected behavior
+
+Keywords: “game disconnects”"
+Technical,Automatic health adjust can scale the game for single player for boss hp. Too many items plus gives you 1 hit kill commands if you just want to skip it.,Notes: Tips for solo players
+Technical,"Looks like this poster on the Klei forums[forums.kleientertainment.com] ran into the same issue. About 10 months ago I've personally experienced it multiple times a week; guess the exploit is back.
+
+Looked into this before and as I understand it the game is just highly vulnerable. From overloading servers with scripts to people simply reading the bug tracker forum and purposefully replicating crashes that aren't fixed yet.
+
+Unfortunately server crashing scripts aren't the only thing that's been happening recently. Here is a recent and extreme example of a mod causing very fast movement[forums.kleientertainment.com] (April 20, video example in forum post link).
+
+Hope Klei is using a less exploitable engine for their new game because these issues shouldn't exist in 2026.",
+Technical,"so, my server i share with my friend has been crashing every single time we try playing on it, on day 3. at first i thought: hey, it's probably a mod! but no! it shouldn't be, because my friend has a private server with all of said mods on there and it works just fine!
+
+originally i made the server and was the host, it crashed on day 3
+then, after the 4th or so time we gave up on said server and made a new one, this time hosted by my friend (as I assumed it might've been my connection (despite it being okay)), it ALSO crashed the second day 3 began.
+
+what's going on man??",
+Technical,"This might be a solution for players suffering from low fps in fullscreen mode despite having a decent pc. Low fps are only present in fullscreen mode, once switching to windowed it is butter smooth.
+
+I had this problem and tried everything. Eventually I found a solution myself and I want to share it here so that other people can try it as well and report back.
+
+My problem was caused by AMD FreeSync. I have it enabled for all games but it seems that DST has a problem with it. Open Adrenaline software, goto Gaming, then open the profile for DST and on the right side below ""Display"" disable AMD FreeSync.
+
+With this setting I have the same fps in fullscreen as in windowed mode.
+
+Hope this helps other players.",
+Technical,"F will attack a nearby enemy. Ctrl-F will force attack a nearby anything. Ctrl-F is for attacking butterflies or pigs or things that don't start out hostile to you. F can be used after that first attack once the enemy has now turned hostile, or anything that is hostile to begin with like Spiders, Tallbirds, Nightmare Creatures, etc.
+
+On Console, the attack key kinda just makes you stand in place and swing your weapon. It's why I hate playing on console, even my Steam Deck. PC attack functions much better once you get used to it.",
+Technical,"I discovered you right click on the lighter (in hand) to extinguish and collect souls
+
+I to inspect self and see the skill tree
+
+Still not sure how to cast spells, as I acquired the skill Spontaneous Combustion but don't see an option to cast.",
+Technical,"He's probably clicking to attack, and then clicking next to the enemy and it makes him run.
+
+F to auto-shoot hostile mobs, Control-F to shoot the closest neutral mob. If you are using keys and not mouse clicks to fight, you shouldn't be 'running towards' anything.
+
+You can also upgrade Walter's slingshot so it has greater range.
+
+Not knowing how to use keybinds has been a big thing I've seen turn off new players. Just try kill a butterfly only using your mouse. not a fun time.",
+Technical,Im playing webber and want to make a giant army by shooboxing them classic style. But im wondering. Will they despawn when i log out even if their home spider dens doesnt exist?,
+Technical,"I am over 150 days, and I've opened 7 sunken chests so far, finding only 1 surprising seed.
+
+Did the drop rate decrease lately? In my previous world some month ago I would find one for every opened chest.",
+Technical,"You have to fertilize them, easiest way is manure from beefalo or rot if you let things spoil.
+
+If using a mouse, drag the item onto the planted bush/grass.
+
+If using a controller, go to the manure/rot in your inventory and there should be a fertilize option (not ""fertilize plot"", just ""fertilize"") if you are next to a planted thing that needs it, I think left on the dpad",
+Technical,"Title says it all i have a pretty alright pc (atleast for dont starve and much bigger games like rainbow six and marvel rivals)
+I would get about 120 fps on rainbow six with low settings
+
+Yet on DST i cant even get a consistent 30 fps let alone 100+
+My refreash rate ingame is set to 165 and for somereason i cant lower it (i thought that would help somehow)
+
+And i play with lag compensation off cus easier kiting
+
+What should i check and do
+
+Specs
+AMD ryzen 5 2600x six core processor
+16gb ram
+Nvidia geforce rtx 2070
+
+Idk much about pcs but id love some and any help thank uu",
+Technical,"I dropped a mandrake on coals and it crashed the server when it cooked. I was told it has something to do with it having a chef tag?
+[string ""scripts/prefabs/mandrake_inactive.lua""]:55: attempt to index local 'chef' (a nil value)[2026-06-19 17:50:41] [master]: LUA ERROR stack traceback:",
+Technical,"Greetings!
+Congratulations with the recent release, which all we waited for a long time. :)
+I like to play DST with my friends. And I found the map sharing and global players indicators as the highly requested feature. I know that this is not a feature of the vanilla game, but there is an excellent and very popular mod, which provides the corresponding functionality. Unfortunately, according to the mod's author @rezecib, map sharing became broken at some point of game development because of some changes in the game's core if I understood correctly. And it still remains not fixed. Again, according to the author, there is not a very big change needed to make map sharing working...
+Dear devs, please make the corresponding fixes to the game's core so that map sharing become able to work again! Especially if it is not a very big deal...
+Perhaps not many players write about it here on the forums, but rest assured that this is a very requested feature. Many users of the mod ask about availability of the feature for very long time! Even though the author clearly noted the details about the unavailability of the feature on the mod's page. As for me and my friends: we stopped playing the game some time ago mostly due to the fact that the map sharing is broken. :( And we hoped that it will be fixed at some point near the release of the game. But the game has been released and map sharing is still not there... :(
+Make us happy! :) Thanks in advance.",
+Technical,"As of update 505171, the attack animation will wait to completely finish before being able to attack again while holding f to attack, resulting in a really slow attack speed. This occurs with lag compensation off, but it still slightly slows down attacking even with it on.",
+Technical,"With lag compensation changed the change in attack speed doesn’t allow hits to connect anymore. I am playing with zero ping and on my own server and no matter how close I am to the knight I can’t land a hit at all and have to chase the target down. I am a wigfrid main and most of my friends play wigfrid, we noticed the change and wanted to submit a bug report to fix the issue please, this is really affecting our ability to fight anything…",
+Technical,When I click any game icon it goes down and nothing happens. Some icons become unclickable and flow down when i try to click them.Here are the examples.,
+Technical,"The problem is as follows.
+I connect to my world in Don't Starve Together (it doesn't matter if it's online or offline), and as soon as I leave somewhere, I'm teleported back.
+P.S. I have an iMac with mac OS Sequoia 15.4",
+Technical,"Please help. We cant enter the caves be it private or public caves. It happened yesterday. We tried deleting all the mods from steam folder and unsubing them. There none (mods) listed in-game and in our subscribed items list. We didnt use any mods and our internet was stable. 
+
+I tried reinstalling it but it still didnt work. Please help. DST is boring without caves. This keeps popping up.",
+Technical,"As you can see, I have 4 Salt Licks, all of them in pretty good condition. However, they do not really do anything... at least not consistently. I am using the Insight mod to see the beefalo's stats, so maybe there's an issue there, but it's been really reliable on everything else. Anyhow, I logged into the game and the beefalo's domestication was at 96.6% or something like that. I relog on the spot and suddenly the domestication is 95.5%. I go fight the Bee Queen and I come back to see its domestication is 95%.
+
+I'm not entirely sure whether the beefalo actually uses the salt licks and they don't work or whether it somehow fails to use them. (Perhaps it doesn't use them enough somehow?)",
+Technical,"When one has exactly 10 accursed trinkets and is Wonkey already, pirate raids still can happen. It happened to me at least 4 times since Curse of Moon Quay update and each time this specific condition was fullfilled and was the only one in common, so I'm pretty sure something like "">"" instead of "">="" in check causes this situation.",
+Technical,"Since the latest patch a few hours ago, I noticed birchnut trees have been making odd noises,
+
+it is very quiet and not on all the time, but it reminds me of the lunar island ambiance, must have just been a sound mix-up.
+
+Has been tested with no mods, and with wigfrid, wortox, and wormwood. I cleared all other objects (except ocean and ground since i cant do that) and it is definately the birchnut trees.
+
+@Blue Moth can confirm the noises. 
+
+Sadly I cant record it but it sounds like lunar island noises.",
+Technical,"As a single player, I often use the ROLLBACK to change the loots what I want from the Kluas' sack, and there are many of players do the same job just like me. But this manner do not be active after the new update, and I did not find any update explain from the log. I wonder what happened.",
+Technical,"If Wanda has something in her hand, she cannot interact with a Mysterious Dirt Pile on a hunt. I tried holding a walking cane and one of the new items. Neither would work, but if her hands were empty, it would be fine.",
+Technical,"If the player leaves the cave, you'll be taken to the character selection menu. So, you have to roll back and wait for a fix. Please fix this as soon as possible; it's impossible to play.",
+Technical,"Since the ancient sanctuary is inaccessible except through the whirlpool, and the atrium can't be accessed using spelunker's bridge kits, here's another way to get there without killing the giant tentacle: using a lazy explorer. I know this is a very, very old method, but since spelunker's bridge kits have been banned, I think it makes sense too. As for other teleporters, I don't know (whether they need to be mentioned or not), but as a method due to cave generation, there it is.",
+Technical,"Okay, im on day 129 and i went into the caves to go do stuff in the ruins. The moment I load in im freezing and it said my tempture was -105. when I left the caves to try to fix it, it sent me to the character selection screen. I rolledback tried again did the same thing, I left the game instead come back and im back at the character selection screen. I did ANOTHER rollback turned off ALL mods which we're just heathbars and info. The same thing happened.",
+Technical,"With a lantern and a tool/weapon in your inventory, drop the tool/weapon, equip the lantern and click on it (mantain the lantern on the mouse pointer) and press ""spacebar"" to grab the tool/weapon. You can use the tool or weapon pressing ""spacebar"" or ""f"", respectively.",
+Technical,"I don't know if is intended or not.
+
+Wolfang when is mighty that is 2x damage dealt but only physical damage
+
+34*2 + 34 (planar) = 102
+
+Wolfang has skill tree that is adding 25 to wolfgang attack with using planar weapons.
+If Howlitzer is dealing planar damage should it be considered as planar weapon?",
+Technical,"Hi, I've just recently had this problem too. It seems that beefalo bugs at night. I think what triggers this is a combination of waking the beefalo up by riding him and feeding him. In the first screenshot you can see the beefalo never wen't back to sleep, and in addition to that when trying to feed it it gives the same message as the second screenshot.
+
+I'm also adding a screenshot of a sleeping pig shouting ""Home! Home!"", since it's also a bug related to sleeping mob",
+Technical,The lureplant is another thing that can glitch you through the border of the world.,
+Technical,"In a short way, the bug is: wearing log suit and football helmet at the same time does not reduce 96% damage, but 80%.
+
+FYI, wearing Marble Suit or Night Armor is absoring more than 80% damage, though I'm not sure if it works pure correct.",
+Technical,"FYI, choose Wigfrid wearing Battle Helm and Log Suit at the same time takes 3 damage by a black spider, could be a same bug.",
+Technical,"Was having 60~ fps before and during sailing, when jumped back to land fps started gradually decreasing to a point my character is walking without showing her feet moving. Memory leak perhaps? Had this issue both on Windows and Mac, the server was hosted on Windows.",
+Technical,"The shop tab won't open in DST. Instead, I get a message: ""Please enable the Steam Overlay to purchase clothing sets"". I've checked, and Steam Overlay is enabled in-game in both my Steam client and in DST. I've already restarted Steam, restarted DST, restarted my computer, and verified my game files with no problems, but the shop remains inaccessible. This has never happened before- maybe it's a problem related to the new update?",
+Technical,"Tumble weeds wont drop chess if you havent spawn shadow creatures yet, and by dropping/destroying one of the suspicious marble you wont be able to spawn according shadow ever again in that world.
+And since the ocean update it is very easy to destroy suspicious marble by drowning them in the ocean, or by other mean.
+Pls make tumble weed able to drop knight chest if there are no knight head in the world.",
+Technical,"i have built several pigman houses and 6+ days have elapsed without any pigs taking residence. World-generated huts seem to work fine though. 
+
+For context I built pigman houses in the oasis biome and spider forest biome to no avail.",
+Technical,"Game crashes after clockwork rook's charge attack. the game freezes for a few seconds and after it shuts down. I tried disabling mods, reinstalling the game, creating a new world but it did not fixed the problem. other than that game works normally.",
+Technical,"Randomly the game will not allow me to cut down trees at all, even if i was previously able to. When trying to cut down a tree, my character will turn invisible and only a shadow underneath where the character would be standing would be there. Everything else works but this has happened multiple times :( its usually fixed for a brief time if i uninstall and reinstall the game but thats really inconvenient. I cant chop with the space bar or by using my mouse.",
+Technical,I set up a new world with all of the giants set to none in the world generation settings - A few days in to winter and the deerclops spawned. Is this intended or a bug?,
+Technical,"After Klaus's red deer attack, I got permanent overheating. It cannot be removed. I don't think it's a new Klei feature.",
+Technical,"But I still have problems with him... it seems inst.engaged is false, as long as klaus has no target. But how do you save his stats then? I made him enraged, he increased his stats. Then I died, left game and loaded game. Now I'm a ghost, he has no target so inst.engaged is false. But he still has all his stats and max HP.
+But max HP is not a value that is saved in health component.
+So you save it somewhere else? Or how does he get his stats when loading the game?
+
+The point is, that I have the ""automatic health adjust mod"".
+http://steamcommunity.com/sharedfiles/filedetails/?id=764204839
+This mod adjusts the health of mobs when the game loads or when any player joins/disconnects. And I would like to add klaus, that he has only 1/5 of Hitpoints, when playing alone.
+That's why I have to differentiate if he is enraged or not. But if inst.engaged can be false while he is in fact enraged.. I don't know how to check this?",
+Technical,"I've found a new bug with dragonfly (or it may be old, idk) but when someone tries to attack Dragonfly first time it work perfectly, but when she resets to go spawn lavae's, and then come back to fight again, your character sometimes (or oftenly always) go under her and keeps running back and forward, could you Klei please fix this? This makes the game almost impossible to play for me or for other people.",
+Technical,"i've been having this issue that's really very bad when trying to play a game that kills you if you stand still for even one second . every once in a bit, at random, my game will pause and stop responding. this lasts for about 5-8 seconds, and doesn't seem to have any kind of corresponding trigger. but it LOVES happening when i desperately need to keep running LMAO
+
+i'm pretty sure it's unrelated to lag. just yesterday, i got to experience both of them at the same time. they are different things. it was AWFUL
+
+my drivers are up to date. i updated them again recently and nothing changed. in fact, i think things got worse?????? maybe not. my whole laptop is also updated. my theory is that this is just a side effect of being on windows 11 , because the stats on this laptop are better than the old one, and my old one ran completely fine.
+
+i went through everything in the DST troubleshooting. it's possible that the issue is my VRAM. but, like, if this laptop can run red dead redemption on somewhat low graphics just fine .... why can't it run dst without pausing every once in a while ??? this can't be it, right ? and other far more visually complex 2d games have no issue at all . dst runs perfectly fine excluding the randomly-timed pauses by the way
+
+my stats are
+
+processor : 12th Gen Intel(R) Core(TM) i5-12450H (2.00 GHz)
+
+installed RAM : 12.0 GB (11.7 GB usable)
+
+while i'm not playing the game, i have a rather consistent 58% of used memory. while ingame, specifically running my own server (not something i do much anymore, usually i'm in others,) i have about 91% of used memory. i assume it's a bit less when not running a server, but i haven't documented while playing with friends yet . i also haven't documented how the ram looks while the game is pausing, but, like, if you WANT me to .. i probably COULD .....
+
+if anyone can help, that would be so lovely 💔",
+Technical,"Durability of the Festive Lights suggests that it should stop emitting light when it goes down to 0%, however Glowcap and Mushlight produce light even when ""fueled"" by Festive Light with 0%",
+Technical,"Hello, I came across an issue while playing DST today. 
+
+I haven't played in a while, so I downloaded an update, launched the game, hosted the server. Everything seemed fine. I could play for around 40 minutes ig and everything was fine, but the moment I came close to the Spider Queen, the game crashed. No warning or error screen. Just black screen and game closed. I tried to find something in the client log but I'm not sure what should I look for, since nothing seems suspicious in here. 
+
+The best I can do is move a few steps when I try to launch the server again. The moment the queen moves, the game crashes again. 
+
+I have no idea what to do and I really do not want to lose that world. We've just started 421st day in here...
+
+I play as a Webber, idk if it's important or not",
+Technical,"It seems this bug is ocurring a lot. Lately me and a lot of other players were crashing in post-rift worlds, where someone had a shadow saddle on them.
+As soon as they mounted a beefalo, players would disconnect.
+We convinced the owner of the saddle to get rid of the shadow saddle, and after that the players immediately stopped disconnecting.
+
+By the way, when this occurs you can still retrieve some form of error logs(I'm not sure if it will be useful, but it always helps if you can include those).
+
+You can locate your client_log.txt file, and it would show some relevant data, as well as ""donotstarvetogether_client.dmp""
+The client log will also tell you that it has created a dump file which again, may or may not be useful for the klei devs :)
+
+I hope this bug gets patched ASAP.",
+Technical,"When entering the caves with a warm thermal stone in Winter, the thermal stone immediately becomes frozen. It can't be heated back up even when placed near a fire for an extended period of time.
+
+Although I'm using mods in this clip, I was able to recreate the bug in a world with no mods enabled, so I highly doubt this is a mod issue.",
+Technical,"There is code in the file for Lavae to attack the wall, but in the actual game it can't cause damage to the wall.Surrounding the magma pool with walls or by surrounding yourself can prevent the Lavae from approaching the player.",
+Technical,"The bosses are unable to get from water to land and opposite which makes them easy target for catapults
+
+Simple fix would be the code Shadow creatures use",
+Experiential,"Hey hey hey! I've seen everyone has already explained what it is, BUT. Few more notes! If you like the location, you can move like a screen or two away from the nests, base there, and you should be fine. Moose goose is not strictly hostile, it is neutral, unless you're very close. She will try hopping closer to you when you're nearby, though, so be careful! The plus of basing nearby is... they can help you against the hounds! Or frogs. If you run around them with hounds, sooner or later the hounds will drop the agrro and attack the goose. When that happens, they're basically done for, lol. And frogs... there's a certain thing during spring that can cause tons of them to spawn - you can despawn them by getting away, but why do that if..... You can get the frogs to attack the moose goose! And trust me, you wanna do that, lol. Frogs just attack things around, and sooner or later one will attack the moose goose if you haven't attacked any frog before (otherwise they might be too occupied with attacking you, lol). If you wanna tackle one or two of these beasts (the moose goose and ESPECIALLY the kids), their loot is highly valuable, as it's used for crafting of some very useful tools (weather pain) if you want to tackle on more complicated bosses while solo! Can also make a biiiig fan, used to l extinguish nearby fires (not that effective, but good enough in a pinch and on the go!) or cool down, for example during summer!
+
+If you do decide to fight them, or the frogs do, be careful about the young ones! As others have said, their attack (which goes far in a strraaaaaaight line) destroys any buildings in their path!","Notes: Helpful tips on how to deal with game boss, Goose"
+Experiential,"Free backpack, literally a rook next to you to knock down trees and get gears. And dragonfly nearby. Good portal base location
+
+Only positives here",
+Experiential,"What I've been usually doing against spiders is making rabbit traps and placing around 5 or 6 of them in front of their nest and whenever I need something from them I go walk near the nest to spawn em, then run back past the traps and the spiders fall into the traps
+
+Quick and kinda easy, even though I do take some damage from doing so",
+Experiential,"That's a good method. You can pick up the spiders from inside the traps easily too. Murder them in your inventory. Make silk hats for sanity.
+
+And make a crock pot for cooking food, very important to extend hunger values.",
+Experiential,"Just keep moving and don’t stay in the same place too long (watch for tentacles), and you should be just fine. In and out, follow the road as much as possible, get what you need, and then leave ASAP. I don’t really “like” being in the swamp either, but I’ve learned to love it for certain resources, and I try not to spend any more time there than one (in-game) day at a time, and never camp there overnight if I don’t have to.
+
+If there’s a safe space on the edge of a swamp biome, I usually like to make a little camp there with like just a fire/crockpot/chest so I have somewhere to rest if things get dire.",
+Experiential,"100% the easiest way for them to start is a solo game. Either trying it out themselves, or with you watching and guiding them. Playing a world together when they’re brand new will be frustrating for both of you.
+
+You won’t be able to have time to explain much of anything if you’re trying to do anything yourself, let alone prep a base and food etc for two people. And if you do a bunch of stuff without them, they won’t have learned how to make the basic things cause it’s already done.
+
+The biggest thing, is that it’s much more tolerable to pause often, especially the auto pause setting for the crafting menu in solo player. The hardest thing about being new is feeling in a constant rush, and not being able to take your time and look at what you can make, and how.
+
+If you’re not there in person, and just giving advice on how to learn… tell them to use the wiki! When they die to something, or discover something they want to know, Google what it is, or how to solve it.
+
+Secondly, explain the rollback feature! In the game if you die, pause, select server, rollback. Can redo up to the last 5 days.","Notes:
+Comment on how to best introduce the game to a beginner"
+Experiential,"Killed Fuelweaver for the 1st time in 1.5mins with Warly’s dishes, I haven’t even realised when it was done…. Before that we tried for like 2 times and died as soon as his 2d stage started.",
+Experiential,"So for me, when deerclops begins her animation to shoot her eye laser, I run under her, as for the insanity aura i tank it, normally playing wigfrid, i don't have much survivability tips for woody",
+Experiential,"The game is kind of like a roguelike when you're starting out. You die, understand how you died, and learn to not make the same mistake next time. The first time you die to darkness, you learn that you always need to have a torch or campfire around. Just keep trying to survive longer than the last time, and learn what you need in order to survive.",
+Experiential,"I on my new world have like 3 walking cane, 5 tam'o'shaders and 6 pan flutes all from gifts","Notes:
+Experience/items gotten from gifts"
+Experiential,After spending a second winter failing to get a walrus tusk in my current world I was so frustrated. Imagine my delight when one day into spring I found a Christmas tree and opened one of the presents to a walking cane!! Santa knew exactly what I wanted,
+Experiential,"In winter, there are these trap things. A treegaurd with 3 presents (Hounds) underneath. I always opened the presents. Free living longs and monster meat, and baubles! What could be better!? But today I opened it again and I got a panflute. A fresh, 100% panflute. Is this rare? I checked the wiki, it has a chance of spawning under a winter's feast tree but I thought that only happens if YOU slept under it, not it generating randomly.
+
+How rare would you say this is?",
+Experiential,"My friends and I play on a modded relaxed mode and lowered the instances of frog rain and forest fires along with a few other small things and it has made a world of a difference. But basically, finding a few good mods and looking stuff up when needed is super helpful",
+Experiential,"The hound mounds (the bone structures which spawn the hounds) can be destroyed. Fighting them is kind of hard, because once you kill one of them, the monster meat attracts the others and you are easily overwhelmed if you're fighting alone.
+
+My advice would be using a seasonal boss to deal with them. Either Deerclops or Bearger can easily and quickly kill all of them.",
+Experiential,"The wildfires, like people mentioned- but I hate the sandstorms even with desert goggles and wildfires are just annoying so I turn them off in world gen. I spend most of my summers in the caves anyway.",
+Experiential,"Basically anywhere is viable to base on and some people just like to do the same thing over and over... In SA servers the current ""meta"" is to base on pig king which I'm not a fan of.
+
+I tend to either base somewhere in the center of the map, but I like to do 'thematic' bases sometimes just for fun, oasis is a cool one, specially when you get a bunch of wasps in a neighboring biome (wortox players will know)
+
+But to answer your question now directly, there isn't anything incredible about any particular base location, you kind of pick your poison and just do whatever you wanna do",
+Experiential,"I was fighting werepig on my way to the archives, and had the gem in my backpack on the ground. After the fight I noticed it was gone.
+
+Devastated :'(",
+Experiential,"In my current world, the area next to our base is just like this with gland and silk litter everywhere, we planted around 4 spider nest and will clear them once they hit tier3. However spiders fight with everything that move and make a mess of the land.
+
+I had enough and moved all nests (like 12) to a separated island made from dock, now that clean up the land once and for all lol.",
+Experiential,"People who join public servers usually just want to play for a while. Some are base builders, others rushers. You'll almost always see people rushing countless things on a public server. I'd say the true experience of playing the game is doing it in coordination with someone, in a voice chat, progressing together in whatever way you prefer. As the game's title suggests, its best feature is its ability to create combinations and other elements thanks to being multiplayer. Of course, this doesn't mean you can't still play single-player.",
+Experiential,"I've got all the different games. I prefer DST even to play solo. I've never jumped into any public server. Either I play my own private server opened to my friends, or I will play my other server where I play all by myself. There's much more content throughout the game and quality of life updates for me to keep playing. And the fact characters have skilltrees is honestly so cool. I'm yet to try everyone's new skill trees. Original DS is amazing (and my favourite is Shipwrecked by a long way) but I've played recently again and I miss stuff like the crafting menu for example.
+
+Anyway, all that to say, I play so much DST but I have never ever joined public servers. Playing solo on DST is still very fun. There's so much to do. The caves/ruins, the ocean, all the bosses, etc. It's just harder than basegame as the bosses are scaled for multiplayer plays (Dragonfly and Bee Queen have about 28k HP each for example). It's not undoable solo however, it just requires lots of preparation ahead of time. For Bee Queen, in my server with friends, they were doing other stuff while I've soloed her like twice by myself. I just created a massive death trap of tentacles and let her slowly die from tentacle slaps lol. It just took a really long time for me to set it up.",
+Experiential,"To be honest i join public servers quite a lot and its been a very long time since i saw qriefers. DST is usually one of these: Play alone (seems weird, but to be honest i find it much more enjoyable than DS or its DLCs). Play with a privatly hosted group, either just to survive, or to rush a few things before setling down and playing kinda casually. The same but run mostly focused on boss rushing. The completely casual style, no rushing. Long term base building with a smaller private group of people. And probably more, where some people like to join a public server and rush a few bosses before logging off just for fun, thats kinda what i like to do. There is no single kind of playstyle, this game is still kinda a sandbox, so you can do things however tf you want.",
+Experiential,"If you feel absolutely hopeless, you can look up some YouTube guides, but learning the game is genuinely one of the most fun parts. I have 700 hours and I'm still a solidly mid-tier player who dies to terrorbeaks, lol",
+Experiential,"Casual+ endless + Just die and come back and keep learning.
+There was a YouTuber, and his videos are still up, tho outdates, called The Beard (can't recall his actual username) that did GREAT beginners guides. There are countless others. Watch, play, learn.",
+Experiential,Trial and error is the intended way to learn. But I understand that some people don't have the patience like that. Me included. So I just watch a lot of video tutorial,
+Experiential,"I played woodie for the first time this fortnight and I think he's my new solo-main.
+
+No need for armor or weapons, just farm a few spiders in moose form and now u have infinite moose forms for later. And moose can solo D-fly (easily if u use beefalo wall setup for avoiding enrage), can solo klaus. probably less great for later game bosses I assume, but atleast for the early solo game, exploration is peak, survivability is peak, and gathering is decent (faster wood)",
+Experiential,"Spider and Beefalo items are the things that I have had to install mods to clear out in very long term lobbies. I cant think of any other item in the game thats ""too abundant"". Razors but I dont think that fits what you were asking",
+Experiential,"Me and hubby both go north until we hit water and then he goes left I go right. We follow the outskirts of the map picking up grass, berries, twigs, carrots, and flint and avoiding fighting until you make a helmet.
+Another Goal for first day/day 2 is to make an alchemy engine and create a backpack. After that keep exploring and when you meet up you can discuss where the best base spot would be. In a large world we manage to meet up by day 6/7 and sometimes 8-9. Just be set up with a base and gather supplies because day 21 is winter",
+Experiential,"Hi all,
+
+Finally got to the point where I was able to open Lunar Rifts and got a little overwhelmed with the Deadly Brightshades and turned the rifts off in world settings for a couple days. I've since turned them back on and they have not re-appeared after ~20 in-game days. Did manipulating the settings break something or is the wait time different when adjusting those settings? Or would I have to re-defeat CC to give Wagstaff the Shard?
+
+Thanks for any tips!",
+Experiential,"I started playing the game again after a 2 year break, and went back to my 450 day base and I already got 300 days on it.
+
+I am a wanda main, but I have been visiting some of my favourite charecters for both the mega base and to check out the skill trees and right now I am playing as wx.
+
+I mainly have 2 issues with their skill tree, the first one which honestly seems like an over-slight which is the fact that their Exploiterators don't work when you are using a beefalo. It sucks because I already worked really hard to get the beefalo and the possessed attium just for them to not be compatible.
+
+The second issue which I kinda understand but still annyed by is the fact that other survivers can't open the chassis. I didn't realise this at first and I built a grass, twigs, monkeytail and stone fruit farm that utilitieses a chassis with 6 Spatializer circuits for infinit collection just to realise that every time I won't to get my resources I would have to switch back to WX.
+
+Honestly I just wanted to share my opinion to see if anyone else is annoyed by this, but I also realised midway writing the post that I didn't look for mods that fix this issue so I will go and do that now.",
+Experiential,I prefer to be near both beefalo and the swamp. Pig king be good if they’re nearby too but I rarely utilise them for anything much other than converting crap to gold.,
+Experiential,I used to seek the Pig King and install a small base near him for the gold and meat (from pigmen). Really a good spot,
+Experiential,Better than me. 225 hours only just beat the Shadow Pieces now. Fuelweaver up next…,
+Experiential,"Ive had this same question and my only solution was to decrease Fuelweaver cooldown to 5 days. Defeat fw on cooldown and then go defeat AG afterwards, rinse repeat until you're satisfied. To this day, I still dont have enough horns lol.",
+Experiential,"I recently solo'd my first Bee Queen.
+
+I had to use The Twins. Terrarium with a Nightmare Fuel, set Eternal Night, and basically played the most stressful game of dodgeball of my life.
+
+Did I have to? Abso-freaking-lutely not... At least not yet. But I wanted that Beanbooster Circuit and scrapbook data.
+
+The teamwork method sounds far easier tho.",
+Experiential,Does anyone know of a mod that reskins lure plants so that they dont look like that or completely erases them from the game. I don't know why but looking at them makes me physically ill and gives me the major heebie jeebies and it is genuinely impacting my ability to play the game. Please help and thanks.,
+Experiential,"So, I’ve watched jakeyosaurus’s video and read the wiki and whatnot (still, I would appreciate tips) but I’ve just realized i’ve been maining potentially the easiest beefalo tamer, Warly. He’s got a portable crock pot which is great for steamed twigs and I sometimes find myself with too much food, but what are the best (vegan) crock pot dishes to give your beefalo? Should I just stick to steamed twigs? Again, any tips are appreciated.",
+Experiential,I like having 1 of my garden plots just for food for my beef.,
+Experiential,"help!!!
+
+I touched a terrarium, the Eye Boss came out and just… flew…away???
+
+now what?! that was a few days ago and I’m not sure if it’s coming back at a particular time? Am I safe?!!
+
+playing offline mode with spouse
+
+EDIT: he never tried to fight me and I think I touched it in the day or at dusk:)",
+Experiential,"I like to make a bunch of lanterns, so I don't have to go back to the caves too often",
+Experiential,lol I do that method on occasion kill glommer and kill krampus and roll back.,
+Experiential,"I already had a Krampus sack from Klaus' sack after killing him but I tried experimenting recently. I brought Glommer to the tooth trap death pit and left the game (so it saved). Logged back in and killed him. I kept spawning 2-4 Krampii iirc. After reloading MANY times (honestly dunno how long but it took me an evening) one of them did drop a Krampus sack. It was obviously useless as I already had one but I wanted to experiment for science.
+
+As others have said, the Klaus sack/big bag is opened by an antler dropped by a no eye deer. These deers spawn in autumn but will grow antlers in winter. When using an antler in the sack, it will spawn Klaus. If you kill Klaus, he will drop the correct antler to open the sack.",
+Experiential,"My highest score ever was 774 :D. I use him in a pinch, the bananas help so much and it’s a good way to farm monster meat/ stingers too. Finding him, Chester and glommer are some of my favorite parts about starting a new world",
+Experiential,"I found this as well, I opened it and was immediately attacked by pirate monkeys, fortunately I was able to get to the shore before the boat sank, but that was a fun trap to deal with for sure. Mine had a starcaller staff, walking cane, tackle box, plus more",
+Experiential,"I usually don't split progression and just focus on one at a time based on what character I'm playing since most characters benefit much more from one quest line than the other. If I'm playing Wendy, I'd usually go ruins > shadow pieces > nightmare Werepig > fuelweaver for the nightmare saddle. As Wigfrid, I go ruins > moon stuff > crab king > celestial champion for the charged elding spear and enlightened crown.",
+Experiential,"Two friends and I generated a new map and we have yet to find a single sapling by day 30. It’s the craziest thing we’ve ever seen, and I’ve been playing this game for well over three years. Is this rare? Anyone know the probabilities for rare world spawns in this game?",
+Experiential,"Close to day 200 base with my husband, so far looking strong and healthy
+
+“This game is so relaxing” is the first thing I said when I played this game to then quickly take it back when I hit my very first winter … this game is torture .. but still fun
+
+Whatcha think of our base, we have a few areas for a little bit of everything, we definitely need to expand our twigs and grass but weirdly that amount has done us well so far haha",
+Experiential,"We normally go in the caves through summer but luckily it’s early on here so it’s not the worst load of wild fires, but any summer we spend it in the caves pretty much Pillars are aesthetic as they are pretty much useless up above but they look really nice lol Knobby tree is on route I know she really wants one in our base (From the hubby)",
+Experiential,"i js returned to base to build some stuff n i see this ,,, i was shocked lol i didnt expect a fat catcoon day 38 destroying n stealing my food...",
+Experiential,"As someone who occasionally builds mega cave bases in different runs, I definetely don't want their frequency bumped up! They spawn at a pretty good rate for me. And for fumarole, the trees regenerate enough for my 14-player server, so we have enough seeds for the different bases around the shards. I do love this boss, it looks bloody beautiful and intimidating when there are multiple of them. Very fun and cool encounter",
+Experiential,"The fight was between 2 and 3 days from day 210 to 212. It took 6.75 moonglass axes, 2.6 pan flutes, and 40 bright shade bombs which I used in place of weather pains after accidentally driving volt goats to extinction. I also had to repair my bright shade sword 3 times. Pretty fun fight for 99999 HP but next time I'll probably use that ice flingo cheese.",
+Strategy,"I suggest learning how to fight spiders, as it can help solve both problems. 6 silk can make a top hat which does wonders for sanity restoring, as well as dropping monster meat. Monster meat, along with like, 3 berries in a crock pot, can really provide a LOT more hunger than their ingredients separately.
+Or like someone else said, wear armor and get some cactus to cook over a fireplace. That solves sanity and hunger too.",
+Strategy,"Farming spiders will fix all of these problems and open up a lot of options. They will offer food, healing items, and silk. Silk can solve sanity with top hats and tents.
+
+Spiders can be moved if you destroy a tier 3 nest and replant the eggs. Be careful that a tier 3 nest can become a miniboss. Planting too many spiders nearby can become a headache fast. If fighting them becomes overwhelming, use the same traps that you guys are already using for rabbits, as they can trap the spiders too.
+
+Silk also opens up a lot of new food options with bug nets and fishing poles. Honey can refill all three of the player's stats and is very efficient. I recommend bee boxes as they are one of my favorite options.
+
+If you are eating crockpot foods that restore 10-15 sanity, and wearing a top hat when you arent fighting, you'll find sanity easier to manage. Sleeping will restore large amounts of sanity and health at the cost of hunger.",
+Strategy,"Actually, its the ""prototype"" new recipe that gives a flat +15 sanity. When there's a lightbulb icon, it's mean you can unlock a new recipe.",
+Strategy,"For sanity, don’t neglect sleep. A lot of people just stand around and wait out the night but actually sleeping does help (unless Wickerbottom as she can’t sleep). Crafting a flower garland helps significantly too and is much easier to get than the top hat.
+
+Don’t pick every single flower; leave a couple in an area so that the bees can pollinate them (spawns more flowers). Ideally, put a few bee boxes near your flower patch too. Will help with pollination and the honey you’ll get from the bees boosts all 3 stats.
+
+For food - place rabbit traps directly over rabbit holes for more success catching them. Removes the need to put down bait or the risk of them getting scared off.
+
+That said, rabbits can be a bit of a new player food trap, they can be too unreliable. Cactus from desert biome will help you a lot and they regrow fast, even in winter. Bird cage will allow you to get eggs (you can feed monster meat, seeds, etc to the bird to convert it to eggs so it’s more usable). As others said, make sure you’re using a crockpot not just cooking over a fire.
+
+Dig up and replant berry bushes near your base (you’ll need to re-fertilise them with rot or fertiliser).
+
+Also, there’s no shame in adjusting a few settings if it gives you guys a more enjoyable experience. Turning up the regrowth & spawn rate of flowers a little makes a big difference :)",
+Strategy,"1: science machine -> crackpot; it's a structure to combine 4 foods into one with a recipe; get monster meat from spiders and any filling (berries, carrot, ice, cooked chestnuts) 1 piece of meat and 3 fillings make meatballs that fill Wilson by half
+
+2: have an armor (science machine -> alchemy engine -> football helmet or log suit), find either desert, pick up cactus flesh, cook it on a fire, huge sanity food
+
+3, health; some very common health recipes are 1 butterfly wing, 1 vegetable (like cactus flesh), 2 twigs -> butterfly muffin; have a birdcage (requires alchemy engine and 8 reeds you pick in the swamp, plus seeds and gold), trap a bird (bird trap requires silk from spiders and sticks) feed it monster meat, it returns eggs; 1 egg, 1 meat (any), 1 vegetable (cactus flesh), 1 filler (berry, ice, not a stick) -> pierogi, gives a ton of health
+
+But the most important thing is to stay nomad until you've explore all the map, so you know where everywhere is. You're going to struggle if you are limited to the resources of just one biome.
+
+A lot of resources are movable, replanted berry bushes and grass will require fertilizing when you plant them, but it can be worth it to make a good base. There's also plenty of valuable structures like beeboxes.",
+Strategy,"DST Basics
+
+HUNGER: most people lose 75/day, be aware if yours is different. Eat efficiently--don't constantly hover at 80%+ hunger -> let hunger reach ~0 -> slam high-hunger food. No eating before Day 2
+
+PRIMARY RESOURCES: 40 grass, 40 twigs. 2 grass+2 twigs -> torch -> burn trees -> charcoal + night light -> keep working/moving -> darkness won't kill you
+
+ALSO COLLECT: 20 logs, 20 flint, 40 rocks. Flint -> basic pickaxe, axe, spear for weapon. Target boulders with gold lines for 1-2 gold each -> science machine/alchemy engine -> stronger tools to replace flint. You need gold more than nitre (plain boulders)
+
+HAMMER PIG HOUSES: easiest+fastest way to get lots of boards, cut stone, pig skin early on
+
+1st SCIENCE MACHINE + PROTOTYPING: backpack, boards, cut stone, rope, doodad, alchemy engine, bug net, shovel, spear, beefalo bell -> easy big meat
+
+1st NIGHTS: collect resources while holding torch OR burn a tree -> chop/mine/collect freely and easily, as well as catch 1 fireflies -> miner hat -> portable, refillable light on headslot
+
+KEEP BURNING TREES: you'll want 32-62 charcoal (4-8 crock pots, 4-7 drying racks) for a starter kitchen
+
+KEEP MOVING: especially at night! You should aim to map out your world's edges by Day 12-13 to find all mainland biomes. If wildfires on -> base in the oasis. If wildfires off (I recommend) -> base where there's quick enough access to points of interest such as: sinkhole (light bulbs -> miner hat/lantern +19%), wormhole (fast transport), beefalo (food source+protection from hounds) pig king (infinite gold, big+small meat options)
+
+SANITY: having 0 sanity will not kill you. Pick a flower (+5 sanity), prototype (+15 sanity), dried meat (+10-15 sanity)
+
+KILLING NIGHTMARES: there are 2 nightmares. 1 moves slow, 1 moves fast. BOTH have TINY attack range. Fighting: they come to you -> take small step back as they attack -> hold F to attack until they spawn away -> come to you -> dodge -> hold F -> repeat till dead. Whoever gets the kill regains some sanity. Learn to be comfortable fighting them so you can sooner ignore taking care of sanity (until you get strong sanity items)
+
+ARMOR: log suit+football helmet as your main armor. Use log suit and miner hat to fight comfortably at night
+
+STARTER BASE: kitchen -> ice box surrounded by 4-8 crock pots so you can access all pots without closing ice box -> cook multiple things at once -> cook efficiently. 4-7 drying racks next to crock pots area
+
+DO NOT BUILD: walls -> easily destroyed by hostile mobs, expensive to repair. chests -> only make chests for items that moleworms steal (rocks, flint, gems, etc), items pigs/spiders can eat (Deerclops eyeball, meat, pig skin, etc). Much quicker to find items out laid out neatly on the ground -> use pitchfork to dig turf and place carpet under your items -> spring lureplants won't steal your items
+
+BEEFALO: beefalo bell -> bond -> relocate beefalo anywhere -> reproduce in spring. Keep 1-2 herds near base for easy meat. Keep spare beefalo bell for hunting -> bond to beefalo -> drag away from herd -> hit×1 -> dodge -> hit×5 -> dodge -> repeat till dead (4 big meat, beefalo wool, chance for beefalo horn -> best winter hat)
+
+WALRUS CAMPS: winter -> approach walrus camp -> chase walrus (beware ice hounds) -> he stops running -> you kill -> repeat till you have Walrus Tusk (for walking cane(+25% speed)) and Tam o' Shanter (+6.6 sanity/min+warmth).
+
+DEERCLOPS: runs over trees -> logs $$$. When ready to kill her -> run in -> do 3-4 hits -> run directly away -> repeat till dead, eat jerky (+10-15 sanity)
+
+HEALING: kill butterflies -> +8 HP, cook pierogi/dragonpie -> +40 HP
+
+SCIENCE TIERS: if you have an alchemy engine -> hammer science machine. If you have a shadow manipulator -> hammer prestihatitator
+
+OTHER: F = attack hostile mobs, Ctrl+F = attack neutral/passive mobs
+
+GET MODS: geometric placement+drop -> let you place items+structures neatly and accurately on a grid
+
+ADAPTATION: this game takes time to adjust to. You will improve, just be patient and practice",
+Strategy,"Either memorize a lot of recipes or use some combination of full hunger restoring foods - plenty of options for this but Meaty Stew+one other decent food(Like Meatballs) goes a decent way. You can also just power through it with high value individual foods if you have the resources, like just eating Meaty Stews until you're full, and then eating after the penalty has worn off.
+
+Set up an Automatic Volt Goat farm early - this can get you plenty of passive Volt Goat Horns early. You do need to go to the Lunar Isle to get an Anenemy to set one up, but it's not too difficult to manage and you can also pilfer the other resources while you're there(Stone Fruit makes for great and easy filler, along with Kelp, both of which you can get there).
+
+If you're unlucky with random seeds for specific crops, you can save them until a specific season - the wiki has a table, but Pepper is most common in Summer(3.2% chance), compared to Autumn(2.7% chance), Winter(1.7% chance) and Spring(1.3% chance). This can help you try to target farm the crops if you're willing to wait a little bit and are just having bad luck randomly planting so it can maximize your chances.
+
+Powdercake(Corn, Honey and 2 Twigs) is a food dish with a hugely long spoilage time(10k+ days) and no benefits for eating(I guess -3 Health is a 'benefit'), but you can spice it. Helpful if you don't have Bundling Wrap yet and want to spice food for you or your team to use later, and spicing active food would result in it not being useful.
+
+Healing foods are less effective to spam, so I like getting Bee Boxes set up for Honey Poultice and Honey Ham/Honey Nuggets - multiple healing options are nice to have, and the food is pretty simple to source since it just takes Meats/Filler(That you likely already have/want) in addition to the Honey, which also helps the whole diet thing. If you suck at combat this can give you healing options after you disengage, and Honey Poultice is definitely one of the better, stronger healing sources even if it has a relatively high cost(At least until you get Monkeytails or unless you base in the Swamp).
+
+I think if you're playing Warly solo, he doesn't really shine quite as much as other characters - he's an effective force multiplier on a team, and really welcome to have since it both spreads damage out to the team(Minimizing his downside of being difficult to rapidly heal) while also ensuring fights go much quicker with his buffs... which is sort of unfortunate, and makes some of the team based tips much less relevant.","Notes:
+Tips and tricks for character Warly"
+Strategy,"One of the most pervasive DST myths is that meteor fields grow and shift. They do not. In reality, meteor biomes have a set number of meteor spawners, which have a radius of 15 tiles. To make sure you’re safe from meteors, you should always base at least 15 tiles from the edge of the meteor biome (including over water) since that’s the absolute max distance a meteor can fall. I’m guessing that your oasis is probably less than 15 tiles from the meteor biome, and you’re probably going to see more and more meteors fall there over time. I would find a different spot to base.",
+Strategy,"Im not sure how to upload images onto a reddit comment section, but I could attempt to describe what Ive decided to use as my goto (longterm) base layout after a few years of playing (assuming you have geometric placment mod):
+
+I find a 13x13 tile area, and cobblestone the outmost part of the 13x13 in a ring. I then start at one corner of the base, leave a 2 tile space, and then place 2 cobblestone tiles inwardly towards the center of the 13x13 base area, and I will repeat this step until Ive made it all the way around (this will create 12 sets of 2x2 square areas going along the outer-ring of the base, these will be dedicated to different resources and utilities, with each square having a unique turf, for example: the square dedicated to grass (you can comfortably fit 64 grass tufts in a 2x2 area) will have grassy turf, and the 'crockpot/kitchen square' will have kitchen tiles, this also allows for the usual 2x2 tilled farming plot tile to fit in nicely).
+
+I then 'trim' the inner facing part of these series of squares to create a seperate 'ring' of cobblestone, which will provide the 5x5 tile central part of the base containing all the work stations and chests. I will usually build a workstation in the center of every odd numbered tile of the 5x5, and then 'ring' each station with either 4 or 8 chests. I associate each work station with a different theme, for example: scaled furnace will have chests around it containing either summer related goods or heat/fire related items; the shadow manipulator will have chests contain all the dark magic materials and items; tackle receptical will be ringed by spring gear; think tank boating materials; shadowcraft plinth will be ringed by ruins gear; potters wheel will support all the minerals; alchemy engine will have all the general crafting materials, etc.
+
+In the very center tile of the 13x13 area, I will usually have a firepit, as it throws off enough light to comfortably cover most of the area. Once I acquire ingredients for flingomatics, I craft 4 and place one 4 tiles diagonally in from each corner of the 13x13 base (which will land on the corners of the 'inner' cobblestone trimming), as it covers everything WITHOUT overlapping the central tile containing the firepit (ofc this doesnt matter once you have a scaled furnace and alternative general base lightsources).
+
+If I dont play as a character with alternative base light sources (like wickerbottom or winona), I will usually use toadstools glowcaps by duping enough shroom skins (using napsacks and deconstruction staffs) to make 12 of them, and placing 4 on the cardinal junctions of the inner ring of cobblestones and place the remaining 8 on the junctions of cobble of the four corner 2x2 tiles on the outer-ring. While some areas may appear darker, you wont experience sanity drain and charlie can never get you.",
+Strategy,"I just realised I couldve used emojis as a visual example of the tile layout smh...
+
+◼️◼️◼️💡◼️◼️◼️◼️◼️💡◼️◼️◼️
+◼️🟫🟫◼️🟪🟪◼️🟦🟦◼️🟩🟩◼️
+◼️🟫🟫◼️🟪🟪◼️🟦🟦◼️🟩🟩◼️
+💡◼️◼️🧊◼️◼️💡◼️◼️🧊◼️◼️💡
+◼️🟨🟨◼️🟥🟥🟥🟥🟥◼️🟧🟧◼️
+◼️🟨🟨◼️🟥🟥🟥🟥🟥◼️🟧🟧◼️
+◼️◼️◼️💡🟥🟥🔥🟥🟥💡◼️◼️◼️
+◼️🟧🟧◼️🟥🟥🟥🟥🟥◼️🟨🟨◼️
+◼️🟧🟧◼️🟥🟥🟥🟥🟥◼️🟨🟨◼️
+💡◼️◼️🧊◼️◼️💡◼️◼️🧊◼️◼️💡
+◼️🟩🟩◼️🟦🟦◼️🟪🟪◼️🟫🟫◼️
+◼️🟩🟩◼️🟦🟦◼️🟪🟪◼️🟫🟫◼️
+◼️◼️◼️💡◼️◼️◼️◼️◼️💡◼️◼️◼️
+
+Key: ◼️= Cobblestones
+
+🟫🟪🟦🟩🟨🟧= 12 unique turfs dedicated to various resources and utilities (sorry only 6 coloured squares to give an example with)
+
+🟥= central area for chests and stations
+
+🔥= firepit (or winonas spotlight for example)
+
+The following are situated on the center of a tile and are placed ontop of the cobblestone turf
+
+🧊= flingomatics
+
+💡= glowcaps",
+Strategy,"Ofc it's hard
+
+its supposed to be
+
+I reccomend you play either duo or solo in the beggining, it helps get you orietnated.
+
+Are you playing on console? It will be more difficult. On PC, learn how to kite.
+
+Get one player as woodie, make him 'rush lunar island' lots of tutorials. Gives you a great food source, with kelp all year around. Make sure to dry it on a rack first, tho
+
+Base near: A savannah biome, a desert biome, a forest wood - ish biome and a biome with tallbird nests. Set up traps on the rabit holes so you can get bunnies, which you can cook on a fire to get morsels. Hit a beefalo, run, and eventually the rest will stop following you. Hit it 5-6 times, dodge , hit again. Tallbirds, hit 1-2 times, dodge, repeat.
+
+Craft a crockpot. Its amazing for food. Combine 3 plants (Cactus from the desert, or kelp from the lunar island) and a tallbird egg (Found in tallbird nests, big n blue) to make a food which restores 60 health and 150 hunger (AMAZING food source.)
+
+Additional ways to get food is to hammer lots and lots of pig houses, and rebuild them near your base (Not too close) so you can start a 'civil war' ik it sounds weird, js search it up
+
+Find tutorials on how to rush ruins. It's not too hard if you playing w/ 4 people. Beat a boss there, no spoilers for now. The loot makes hunting very easy.
+
+Make sure to mass produce drying racks. They can make meat into jerky. Great way to get longer lasting food, since the jerky is the same thing, just better and can be eaten raw.
+
+Making a honey farm with honey boxes is wise. It allows to make a great healing food, Honey Ham (2 honey, 2 meats)
+
+Make a few farms, here and there. Berry farms are.... alright.
+
+Give roles to players. One focuses ONLY on food, one on exploration, maybe 1 on base building, and 1 on rushing ruins... up to you.
+
+The game is supposed to be hard. That's the point..",
+Strategy,"Silk and gland is just like dust for me most of the time, just started this world and already got 2 chests full of silk and gland thats starting to annoy me",
+Strategy,"To decorate the winters feast Christmas tree that you can build. If you build one, put a sleeping bag under it and sleep under the tree at night, you will get presents which can include deerclops eye balls, tam-o-shanter hats, walking canes, etc.",
+Strategy,"to cast spells, you need to collect embers by killing creatures while they are on fire. Butterflies don't work, so bees and spiders are the easiest. Just slap em with your lighter till they die.
+
+Then you can absorb the ember by holding the lighter in your hand and click it.
+
+Once holding embers, click it to cast spells, or much easier- press Z to bring up the spell wheel.
+
+Of all the 'boss unlock' skill perks, Willow's also seems to be the biggest/most powerful/ Easiest to immediately benefit from (like yea other characters like Winona's are strong, but they require you to beat hard bosses again each world before you can benefit from the perk).
+
+Willow just needs to kill bees then she becomes a longrange auto-targeting or AOE wizard assassin as long as she's killed CC or FW atleast once in any world.
+
+so once you get 15 perk points I strongly encourage you to join a game with good players who know how to kill FW/CC so you can have real fun with shadow or lunarflames.",
+Strategy,"Walter's slingshot has a fixed ranged that gets bigger with band upgrades (pig skin band, cat tail band, and possesed band).
+
+So I imagine the reason Walter keeps approaching the enemy is because he's out of attack range. Has your friend been making new upgrades for the slingshot via the skilltree and slingshot field kit?",
+Strategy,"Understanding biomes helps a bit too. E.g. if you're looking for beefalo, they only spawn in two places. Big savannah, or mini patch inside mandrake forest.
+
+they do NOT spawn in triple Mctusk setpiece savannah or spawn savannah biome (unless coincidentally big savanah is next to spawn). So if you see a Mctusk in Savannah, you know you've found triple. If you see a Mandrake, well you've found a beefalo for later + you know this ISN""T moon pedestal forest, so you're still looking for moonstone+ scrapyard+ mctusk forest.
+
+Mosaic typically is next to spawn biome, though spawn biome can sometimes be quite large so it can fool you/ you can run some distance in the opposite direction of mosaic without actually having left spawn biome.
+
+Brick roads often lead to pigking, which can help find that faster.
+
+Short fat Cactus is Dfly desert, tall cactus is oasis.
+
+Spiders are always somewhere in swamp, and in those two dense forests.
+
+Much harder to learn, but there is also a pool of 10 'random' biomes, which only 5 get selected each world gen (such as a second birchnut forest). So if you've found 5 of these random biomes and none were a birchnut forest, you know that when you DO find that forest, it's pigking because the second biome doesn't exist this world gen. (Biomes | Don't Starve Wiki | Fandom)
+
+Living logs... yeah it's luck dependent but you have a few ways:
+
+fully exploring those forests (moonstone/mandrake) large chance of finding a 'totally normal tree' that can be cut and dug for 3 logs.
+
+Check cave entrances. if you can see blue mushroom forest or lunar grotto, you're not far from.. lunar grotto that spawns a fat blue mob that can be killed for living logs.
+
+Tree Genocide. tame 6 pigs early morning, run to a dense forest, and cut.
+
+Less luck dependent? play wormwood, self harm.
+
+If you really just want to explore, the best character hands down is woodie. Sure wortox can teleport.. but only to places he's already been.
+
+His weregoose form just costs 3 monster meat and 2 seeds, so find some spiders early and you can make a couple of those.. then you can run the entire map at speed, across water. locate every biome in a day, then start even exploring islands if you want and grab stonefruit, kelp bulbs and monkeytails your first week. Woodie can also dupe living logs at the cost of nightmare fuel with one of his perks.",
+Strategy,"Moose is absolutely broken for late game bosses actually. He has 90% player damage reduction, which is the only % dmg reduction that works for planar damage AND his skill gets him an extra like 5 or so planar defense. All this with the HP regen makes woodie a BEAST imo.
+
+As a woodie main overall, my favorite thing to do is to have a knobby tree planted by the first autumn, it’ll be grown by spring and then the base has full lightning protection, 30% rain prot, AND everything in its shade is immune to overheating AND wildfires (you probably still want a flingo for fire hounds though learned this the hard way)",
+Strategy,"I will talk about what you need to focus on based on what day it is. I suggest trying to survive until winter arrives as a first milestone 1-4 - explore map( find optimal place to base) 5-10- setup base ( food, shelter, fireplace, science machines, farm) 9-20- expand base, prepare for winter ( winter clothing, weapons, food management) 20 onwards you have your base, now you can explore, kill, collect resources, farm, challenge boss. You need not fight mobs always, sometimes they just fight each other while you just take their loot that is how weak survive in DST until you learn combat",
+Strategy,"I did try the same thing, but I have to switch characters all the time. When I switch characters, the auto grabbers despawn, and you can’t access the bodies anymore. So I built my farm the old way: Winbots + Infinite Chest + Books.
+
+I haven’t tested it yet, but I think there’s actually one way to make an auto grabber farm work. You can join with an alt account and claim the bodies with that account, set up the farm, and then log out. When you play on your main account, the auto grabbers should keep farming, and the loot should keep stacking in the bodies.
+
+The downside is that you have to join with the alt account every time and transfer the loot into Infinite Chests manually. So I recommend the Winona setup instead.",
+Strategy,"separate the two queens somehow and pick off the minion spiders by pulling them away from the queen
+
+if i am not wrong, nurse spiders cant attack so just stunlock them to death and deal with warrior spiders by side stepping to avoid their lunge attack
+
+this fight can be done with a simple spear without much effort by kiting the spider queen every 5-6 hits
+
+hope this helps!",
+Strategy,"I usually draw the nurse spiders away from the queen and focus them. Always take out the minions before going for spider queen. My trick that doesn't really apply to weremoose form but any character can do it: use a torch to panic spider queen to prevent her spawning more minions if they're already unmanageable. Kite her while there's no minions, or if you have the health to spare you can tank the fire damage and make quick work of her health since she won't attack while panicking, you can melt her whole health bar relatively quickly.",
+Strategy,"Is one of the easiest bosses to dodge, their atacks are too slow and predictable, leaves you a lot of room to hit and is vulnerable to freeze, fire and sleep mechanics Sure, compared to deerclops or a treeguard is more complicated
+
+You don't need to do much at once... You hit until he spawns caps and then you simply chop them (better with glass axes)/use weather pains... If you need more time to chop simply freeze/sleep them. If you take advantage of when the caves are wet you can use morning star so you reduce the cost to simply one weapon and also deal more damage
+
+Edit. And for misery, is just the same but during more time. There are ways to speed up the process (now even more with all the buffs the players have gate during the years...) like using hondious shotious, huge armies, portal swapping to stack character perks like volt goat jelly/catapults/etc...",
+Strategy,"Toadstool is all about preparation, not the fight itself.
+
+Golden Axe vs moon glass vs weather pains
+
+Need TONS of weapons for the massive HP pool
+
+Stone Pillar to stop Earthquakes, fridge to keep healing food from spoiling
+
+Ice staves and Pan Flutes to keep him asleep as you chop
+
+The fight itself isn't hard. Just super resource intensive.",
+Strategy,"Get a mining hat for light. All you need is an alchemy machine, catch a firefly with a bug net, and make a straw hat with 12 grass. Recharge it by going into caves and picking light bulbs.",
+Strategy,Lead it to the forest and let it destroy trees until a treegaurd takes it out. Deerclops too. Tree guards are way overpowered.,
+Strategy,"Each crop has a happiness stat. Being talked to, season, location as well as having enough food & water influences their happiness. Happy crops give seeds back. By location I mean growing crops of the same type together (4 or more), not crowding too many crops in one area(no more than 9 per tile) & not having any weeds or debris nearby. You can check how happy each plant is with a garden hat. You can also use the hat to research crops & read your garden scrapbook which shows you the specific wants of each crop that you’ve researched.",
+Strategy,"Spam the seeds you get from birds, talk to them daily and dig up weeds once you see them. When you harvest you will get specific seeds for each crop, wiki.gg has some basic crop patterns you can use to start out, complete with visual examples! The garden hat is really good for non-wormwoods, just make sure that if you're using that same plots as the rando seeds to replenish all the nutrients.",
+Strategy,"I sail as wicker.
+
+I hammer the corpse and bring everything that is lying around onto my board
+
+I open the chest and jump onto my boat (since the trap will now break the trap boat)
+
+If it's a ghost trap, no ghost will spawn since I hammered the corpse.
+
+If it's a pirate trap, I open the bookcase that always travels with me and read my lovely sleepy book.
+
+Sleeping pirates are cooperative pirates.
+
+When my own boat is too valueable (filled with loot) to risk its sinking, i park it a bit away before anything else, drop drownables from my personal inventory before approaching the trap with a grass boat.",
+Strategy,"On a full moon the pigs turn into warepigs and the graves turn into ghosts. Full moon should be every 20 days, your first full moon being day 11
+
+The ghosts kill the warepigs which gives you extra meat and pig skins which is great for early/late game as you will use pig skins for early game armour (football helmets) and early game weapons (ham bat)
+
+The character I’m playing is Wendy who is chosen on her skill tree can move/create gravestones which is extremely useful for this pig farm! You can either move natural gravestones on your world or you can turn skeletons into gravestones, I had to murder myself over 20 times to turn my skeleton into a gravestone for the finished pig farm haha
+
+The portal was just for decoration tbh you don’t need to have the portal in this farm, I just thought it looked nice :)",
+Strategy,"The easiest way to get rid of it without destroying anything is to leave a row of berries; avoid having honey in your inventory.
+
+I would recommend leaving it in a forest without bees.
+
+Bearger doesn't respawn if one is already there; you could say that will be its battle arena.",
+Strategy,"Bee boxes and flowers. That's it. They are so overturned it's hard not to overproduce with them. Done correctly, a dozen bee boxes can produce 100-200 honey every day in summer.
+
+If your bee boxes aren't producing as much as you'd like, you almost certainly don't have enough flowers nearby. With not enough flowers, more bee boxes will slow down production not speed it up.
+
+Generally it is better to build bee boxes in a line, not in a clump. It helps to spread the bees out which reduces flower competition. It also helps with harvesting, since it is easier to harvest a bunch of boxes in one pass, wasting less bee time.
+
+When harvesting a row of bee boxes, harvest every other box. This allows you to run just far enough from the bees from the first box to harvest again without managing the bee aggro. When you reach the end of the row, continue to run past the final box until all the bees deaggro because you got too far away. Then run back along the row harvesting the boxes you skipped in the same manner. Bonus points for having cobblestone along your row of boxes to speed up harvest passes.
+
+If you do it right and have enough flowers, you should be able to harvest honey nonstop during the daytime. The reason for doing passes along the bee boxes like that is to maximize the time bees are out of the box and not fighting you so they can pollenate more flowers in a day.
+
+For producing flowers, I recommend using homeless bees instead of planting them all yourself. Set up all your bee boxes but no flowers. Place a lureplant in the middle of your bee bee farm. Capture 10-20 butterflies but don't plant them yet. Once the eye plants spawn, allow them to catch a bunch of bees. Harvest the leafy meat to retract the eye plants. Plant the butterflies all together near the center of be bee boxes where the lureplant is, then kill the lureplant. This will puke out all the bees it caught as homeless bees.
+
+Homeless bees don't have a bee box or hive to store honey in. Once they visit enough flowers to produce a honey they will go to a nearby empty space on the ground and make a new flower instead.",
+Strategy,"I'm not seeing birchnuts either. Hire a few pigs in the PK biome and chop for a day I walk away with two stacks of boards and a stack of birchnuts if it is fall. They last 40 days in a fridge. They can be used as filler, cooked and eaten, burned for healing salve ash, or made into trail mix. Late game, you might have to deal with some poison birches, but either the pigs can chop them or you can burn them.",
+Strategy,"Survive 7 days waiting for the monkey pirates and seize their boat, mostly is important to kill the captain he will drop one of the best oars",
+Strategy,"When I feel overwhelmed or simply bored I just create a goal in my head of what I want to do, be that something new or the typical ruins rush and oasis base and pick a character I don’t play often. I’m a Wanda/tox/max main so the ruins/magic/boss rush is kinda pushed hard/expected to thrive as them , so picking let’s say, warly or worm can kinda refresh how I decide to play that save .
+
+Maybe I want to roons anyway as warls and now I gotta actually think about eels and glow berries , maybe pre craft a tent for after AG or whatever, a beef perhaps with a delayed rush and now the rigid set up is different. Same but different.
+
+The power creep is certainly an issue right now but I try to believe Klei is cooking and will come back to boring skill trees and maybe add variety to say Wolfs skill tree so it isn’t just “hit even harder than you do, and also 2/3 of your skill tree is either worthless or boring” but it is what it is, I started at release and took a long break until two years ago and seeing these skill trees and how nutty some survivors are now was a shock for sure",
+Strategy,"f u are struggling and dont have much things done already, start again in Autumm.
+
+Do no camp for the 1st nights, just explore the map as much as u can (use a torch). Try finding spiders so you can get the silk, and also the big elephant (the footprints u ll see sometimes). With the silk (spiders) and the elephant hair, you can craft some warm equipment. There 's also the bufaloos, you can shave them at night, while they sleep, and u can craft some warm equipment.
+
+You can also craft a thermal stone that recharges when near a fire! It is a cheaper way and it is worth if u do not need to stray far away from your base.
+
+Make your camp near wormholes, in a way that you can have acces to different biomes.
+
+I recomend planting some trees somewhat near ur base so you can gather wood for the firepit without the need of walking too far during winter.",
+Strategy,"I think if you're stuggling with this, then just learning how to easily take out spider nests in your best bet.
+
+First off, make sure it's day time. Dusk or Night has spiders out of their nest that will all swarm you if you kill any. Step on the web so a small group of spiders come out. Tier 1 nests will have 1, 2 for tier 2, 3 for tier 3. Stay on the edge of the web until the spider walks up to you to attack, then back away like 1-2 tiles from the edge of the web, hold F. It won't trigger more spiders to come. Repeat 3 times (doesn't matter nest size). Then walk up to the nest and kill it for bonus silk. Tier 2 and tier 3 nests will spawn one or two spider warriors respectively. You can place down a simple trap and lure it in for a simple kill. Or if you have moderate armor and weapons, it will only get off like one attack, just tank+spank.",
+Strategy,"Believe me, there are tons of food in this game you just need to know where.
+
+First thing you need to learn is how to use crockpot. Crockpot most common recipe is meatball. It’s 1 meat + 3 edibles (ice, berry, carrot etc) for meatball. The best part about meatball you can use monster meat (just make sure not use more than 1 in your recipe)
+
+Second thing is how to fight, tons of things drop meat in this game. Spiders, marotters, tallbirds, pigs. Just have one person playing wigfrid and make battle helm for everyone to fight. Character like Wendy is really good at killing spiders and frogs.
+
+Third is utilize your time better, you should hold a torch and continue to explore at night time instead of returning to base, the more resource you find the easier it is to feed yourself.",
+Strategy,"Don't rely on starting food sources if you can help it, especially with more than 2 people. If you can, try to memorize that the average character loses around 75 hunger points a day. This is around 6 carrots. You will find it MUCH easier if you use a crock pot to prepare meals that refill hunger better than plain items.
+
+I have been getting into farming in DST solo recently, and when you make a habit of planting every seed you see (birds drop them when you scare them away quite often) in a 4x4 plot (one whole digamajig), you will find yourself with more food than you know what to do with. You don't even have to water or fertilize them, they'll do their own thing usually. That being said... You will want to water and fertilize atleast a little, to give you faster crop growth.
+
+Little things I do for food in solo that also goes a long way:
+
+Make atleast 3 drying racks. Throw any meat/kelp/frog legs onto it. It's good for emergencies and long journies.
+
+Use a shovel/have a werebeaver woodie to dig up berry bushes to plant at your base (not ALL of them though, a little secret is that you don't need to fertilize a berry bush that you've never moved!!)
+
+Memorize how much meat you get from a mob. Beefalo are a good source of big meat in a bad situation. Note that big meat, monster meat, and a morsel are very different. Usually, you will want big meat.
+
+Keep a bee box. Honey can be really useful for healing and feeding.
+
+Don't be shy with making multiple ice boxes and crock pots. A common setup is 6 crock pots around 1 Ice box.
+
+Make a habit of mining ice. You can keep it in an ice box (I think forever) and use it as filler for a lot of crock pot recipes.
+
+Keep a bird in a cage. Feed it any meat and it'll produce eggs. Any crop and it'll produce seeds.
+
+Keep a fishing rod handy for when there's NO good food around. Fresh water fish are more of a hassle to get during winter though.
+
+Stone fruit trees!! You get them from Lunar Island. If you want to get this early, have a woodie use weregoose and you could probably get some on first day.
+
+Use the craft pot client mod and a mod called Insight to know exactly how much hunger you're restoring from a food. It's MUCH easier than counting and remembering what every food does. That way you and your friends can kinda gage how efficient a crock pot recipe will be vs how much it takes to cook.
+
+It helps to have too many options for food. What's available will change during seasons and this game is meant to be hard, especially in groups.",
+Strategy,"I wouldn't waste time digging up berry bushes like others have said. They don't grow in winter, summer they wilt. That's two season it's down. Number #1 priority is a spider den for monster meat, silk and glands. Kill them all, destroy the tier 3 nest and relocate closer to base. Use the extra monster meat and use a bird cage to turn into eggs. If you have too many eggs, you can turn into gold with pig king. You can never have too much monster meat, silk or glands. Number #2 is pig houses. Hammer as many on the map as you can and make a pig area. You can use the monster meat to make them friendly then start a pig war. All the big meat and pig skin you desire. Number #3 for me is bee boxes, this is something you can do later on, during summer/autumn. Use the silk to make bug nets and catch regular bees. Then destroy the angry bee hives first to make bee boxes. If not, just destroy any bee hives for bee boxes. Stock up on honey especially during summer when the days are long. Only season it's down is winter. Number #4 is find the ponds for easy frog legs. As a Wigfrid main, I live for easy frog legs. I can dodge them easily or even tank a hit. But if you have tons of twigs and grass, use regular traps 10-20 depending on how many ponds. That's just easy frog legs which is equivalent to a morsel. Then you can make Bacon n Eggs, Honey Ham, Honey Nuggets or Pierogi (just needs one mushroom/veggie).",
+Strategy,"I’ve honestly never really used a beefalo for actual utility rather than just taming one and starting a herd where I want it. But I would assume if you’re going to fight with it, you’d use whatever one other character ride for battle.
+
+For healing, basically you want compost wraps and a bat bat during battle, with sleeping in a tent as the primary way to heal when not actively in combat. Don’t be afraid to use the crap out of that tent (also cut off your arm for living logs first and then heal). Wormwood can eat anything really, food is never an issue. Plant red mushroom caps inside a cave for quick on demand food that won’t ever spoil if not picked. If you have seeds to plant, even eat raw meat.
+
+You can also make honey poultice. Be aware though they take longer to heal with that eating food that would heal any other character. It makes it harder to use mid combat, need to create some space and have time to use it.
+
+Kiting is absolutely essential. Taking the moon shroom skill is great for putting things to sleep (moon shrooms are also good food for him too).
+
+Personally, with a bit of experience and a good set up, all random npcs / enemies will not be a problem. Boss fights end up being more difficult, as you can’t just power through with high healing food. (And I don’t know how you fight bosses that can’t be easily kited or tricked into fighting something else).",
+Strategy,"Green amulets halves the cost crafting something by half while green staves is like ""hammering"" something but you get 100% of materials back if is at 100% durability and that percentage drops depending of how much you used the item.
+
+For example: if you craft, and imaginary armor for the example, that costs 10 boards with the amulet it costs you 5 boards. When you decontruc it you get the 10 boards back if is at 100% durability. Let's say you use it until it reaches 71%, then you get 7 boards when deconstructed. Also, if you try to desconstruc an item with a recipe that contains a single piece of a ingredient, let's say pan flute requiring just 1 mandrake, you get that ingredient back no matter the durability because you get at least 1 ingredient of each back when is at low durability so a 10% mandrake drops 1 mandrake, 1 reed and 1 rope when deconstructed the same way the imaginary armor of the previous example will give 1 board at <10% durability
+
+Take into account that you cant dupe gems. Every gem is destroyed when you try to desconstruc an item that contains them except for the moon caller staff for some reason",
+Strategy,"Spring is pretty chill compared to winter and summer— just make some rain gear and a lightning rod and you’ll be good! If you beat deerclops def make the eyebrella. Oh and watch out for frog rain lolol.
+
+To prepare for summer either get a watering can or ice flinger thing (I forget what it’s called) cuz stuff will kinda just catch on fire when it feels like it. And if your character says anything about tremors just run away from your base ASAP 😅
+
+Also congrats for passing winter!! That’s no easy task",
+Strategy,"Crab king tbh is not that difficult, having Abigail really helps. My best bet is, put pearls pearl in, the rest purple (claws). Because you can entirely avoid attacking claws, with drift wood paddle you are way faster then them. Have a fresh hambat, stock up on pierogis, armor, have a reliable light source, have important stuff in a chest on boat so they dont get flinged off by cannonballs. Stock up about 10 boards and 10 leak repairs. Weather pain helps, tho not obligational. Ofc buffs for abigail.
+
+Fight starts you paddle away from claws, go for first tower, pass by it and give it 2 knocks with bat it should knock it down (take care to never paddle directly towards to not ram the tower). Repeat until no towers left, lead claws far away, make a U turn to crab king, hammer him and keep avoidi claws. As soon as crab king cast waves you start paddling towards it. Forms ice. Main goal here is to 1. stop him from healing by doing damage (Abigail or Weather pane) 2. Break barrier to hammer crab king. Attack guards only if neccessary. Get back on boat safely before ice breaks.
+
+Rinse and repeat until done. Weather pane is great tool to stop crab king from healing when on pc (console aim for weather pane is bad).
+
+If you get annoyed enough gunpowder will do too eventually. Most important here is having the supplies for boat repairs and leak fixes aswell light and pierogies, have a bunch of driftwood ready for making more oars on the go. And navigating the boat via paddling. I reccommend disconnecting the game at crab king so you can reroll back to thr fight start every time it goes sideways.
+
+Good luck, hope you succeed.",
+Strategy,"So, I haven’t used a guide, but I’m in the midst of introducing my friend to the game, and I think the reason the guides are micromanagey is because there are kinda only two ways to guide people in this game. A) Barely guide, let people make their own mistakes and die a lot. B) Micromanage.
+
+The game wants you to die. It wants you to learn through making mistakes. Before DST, death meant game over, so you were supposed to learn incrementally what will kill you, and what you must do to survive it. So, honestly? That’s what I recommend. Jump on, make your own mistakes.
+
+If you want to learn like I learned, do that + have the wiki available to look through when you encounter something you’re curious about.
+
+The thing is that there is kind of an order you have to do things in to survive, at least to start. If you fail to do these things in their order, you’ll get caught in a loop of dying. (For example, if you don’t get gold and make a science machine early enough, you’re not making an alchemy engine, so you’re not making the things you need to survive winter).
+
+The order is roughly:
+
+Gather materials for torches and campfires and make them before night.
+
+Gather materials for science machine and make one, (make a shovel and backpack, and anything else you want, then hammer it down for materials.)
+
+Find beefalo or pig king.
+
+Gather materials for alchemy engine.
+
+Make base.
+
+Gather materials for miner’s hat and make one.
+
+Gather materials to warm you up in winter.
+
+Then it proceeds like that, going “gather materials for the next threat or season” as you continue.
+
+If the above counts as a guide and you find it non micromanagey, I could try and make one for a full year. If you find that micromanagey, you’re not going to find one that isn’t.",
+Strategy,"Here's a newish player friendly list:
+
+0. I put a ""zero"" starting point because killing Dragonfly on your first autumn is fairly hard but definitely doable in a group. This is optional but will definitely help you a lot for survival.
+
+Deerclops (winter, year 1)
+
+Eye of Terror (winter, year 1)
+
+Moose Goose (spring, year 1)
+
+Antlion (summer, year 1)
+
+Dragonfly (if you did not do it in the first autumn [autumn, year 2])
+
+Bearger (autumn, year 2)
+
+I tend to do whichever boss I want to battle after this list. Defeating these bosses secures my survival for the coming years. I tend to do Ancient Guardian, Bee Queen, and Klaus soon after Bearger because of their very helpful drops.",
+Strategy,"You can do both, of course, but you wanted a simple progression path. Both paths lead to the endgame, for the surface and caves respectively and depending on your characters, you might have different gear requirements that favor one path over the other (for example, Wigfrid, Winona and Wormwood love the lunar path, Wurt, Wortox and Maxwell the shadow path, etc).
+
+But yeah, you can do both paths at the same time. My usual route for that is:
+
+- Ruins + Ancient Guardian
+- Moon Stone event on a full moon (day 11 if you're fast)
+- Archives
+- Nightmare Werepig on the way back (make sure he smashes the pillars in his second phase for Dreadstone!)
+- Pearl's tasks (you can finish them all on day 21-22, look up a guide)
+- Lunar altars, Crab King and Moonstorm
+- Celestial Champion kill (important, wait for a full new day to come before you mine CC's remains!)
+- Unlock lunar rifts by giving Wagstaff an Enlightened Shard (drops after you kill CC)
+- You will have a full day of new moon after you mine CC, so go and do Shadow Pieces
+- Wait for the rifts, then craft Brightshade items
+- Spilagmites for fossils
+- Use the Brightshade staff to trivialize Ancient Fuelweaver
+- Give Charlie 5 Dreadstone from the Nightmare Werepig to unlock Shadow Rifts
+
+Done. This way, you will have unlocked both endgame states for the world and have access to all the gear. If done correctly, you will finish this by the end of your first spring, though you need to have a bit of RNG luck and some good game knowledge. Happy hunting!",
+Strategy,"If you're freshly starting out the game, just survive. Surviving a year is the most important part and teaches you the basic gameplay loop. Just going to the ruins and killing Ancient Guardian should be your big goal.
+
+If you're more advanced, you need to make up your mind whether to do the lunar or shadow progression. The choice depends mostly on your picked characters and affinities.
+
+For lunar:
+
+- Ruins + Ancient Guardian
+- Moon Stone event (Full Moon)
+- Ancient Archives
+- Pearl's tasks
+- Lunar altars
+- Crab King
+- Moonstorm event
+- Celestial Champion
+
+For shadow:
+
+- Ruins + Ancient Guardian
+- Nightmare Werepig
+- Shadow Pieces (New Moon)
+- Spilagmites for 8 fossils
+- Ancient Fuelweaver
+
+Beyond that and the seasonal bosses, all else is optional, so just beat whatever boss has decent loot for you all. Bee Queen for Bundling Wraps is btw almost always a very, very good idea.",
+Strategy,"So first, like another person said, boat patches, definitely would need them, bumpers (any kind would work) maybe if you're up for getting food on the fly to save food it would be best to try and fish and make a ton fishing bin, also, tip, at night davy jones will try and unpatch boat patches, get rid of the anchor, and unwind the sail, you can step on their face to get rid of them (I think three times. Also highly suggest just using an oar and not mast as those are easier to control) using glommers goop (probably butchered glommer) fig fruit (found in a tree like biome in the ocean, do be warned for the spiders), and maybe science machine or alchemy engine you can make these goop like things that repairs boats without leaving an area for davy to open up the patch, anyways doubted this helped but hope you have safe travels, oh and pick up the bottles in the ocean and use them, if you get to the ""hermits"" island pick up those bull kelps and plant them near your base, if monkey priates show up near an area... Either go there or don't but they can steal your stuff and hide them (you can get them back) if you find lunar island go to the beach part and archipelago's to also pick up bull kelp, anyways enough yapping hope you have a safe journey, doubt it helped but, well hope you have a great journey.",
+Strategy,"only 5 gunpowder, each knight has 900 hp, 1 gunpowder does 200 damage, 5 gp = 1k damage.
+
+ill try 4gp with 2 slurtle whatever to deal 900 damage precisely, hope it works.
+
+Im playing as WX78.",
+Strategy,"For Skills, I run the following Skills:
+- Alpha Tinkering I and II (Reason below.)
+- Beta Tinkering I (Same as below.)
+- Gamma Tinkering I (I find that this combination of Tinkering Perks gives a massive amount of utility in Circuits for every purpose I could need.)
+- Off By One (This one is darn-near essential for most Circuit builds.)
+- Right To Modify (Reason below.)
+- Watts Up (With the buffs these two perks got just before release, Right to Modify and Watts Up are REALLY HARD to not take. Being able to hotswap Circuits for less damage and also charge faster with less consumption when unplugging are both powerful tools when you're setting up, and are very handy for getting rolling lategame faster. They also let you abuse Inhabited Machine II more often, roughly within half a day.)
+- Cold Standby I (Required for any Chassis Perks.)
+- Cold Standby I, II, and III, and Remote Transfer (Remote Transfer requires all 3, but having up to 4 Chassis is handy regardless.)
+- Inhabited Machine I (Being able to self-revive is fantastic, and pairs directly with Inhabited Machine II.)
+- Inhabited Machine II (As mentioned above, in particular, the ability to literally just say ""Nah, I don't really feel like it"" when you die is an amazing utility. Just be sure to keep a safety torch on hand for if you rez in the dark.)
+- Transport I and II (Drew is amazing utility. A chest that can travel across the world for the cost of a price trade of a Board for a Doodad and 3 inventory slots. Absolutely glorious.)
+
+Now for my Circuits, I usually run the following:
+Alpha:
+- Super-Hardy, Super-Processing/Beanbooster, Super-Gastrogain, [Flex slot] (One of each puts WX at 200 of each stat, which is not bad in the slightest. Additionally, Off By One allows you to add a basic Alpha Circuit to boost a stat to 240.)
+Beta:
+- Optoelectronic Circuit (Night vision. 'Nuff said. With Beta Tinkering I, the filter becomes almost normal vision, to the point I often lose track of what time of day it is.)
+- Super-Acceleration Circuit (25% extra speed is nothing to scoff at.)
+- Flex Slot (Usually I just put a Rangebooster in here, since the Optoelectronic Circuit makes a Super-Illumination Circuit pointless, but it can also be handy for more collaborative efforts.)
+Gamma:
+- Sonic-Invoker Circuit (With Gamma Tinkering I, this Circuit becomes REALLY potent. Being able to force-fear any non-boss creature that draws near is... It's just great.)
+- Redigestion Circuit x2 (Turning Rot and Spoiled foods into Nutribricks via Gamma Tinkering I is a pretty sweet benefit for basically no cost. Alternatively, Spin Cycle could be used, but there's no 1-slot Gamma Circuit yet, so...",
+Noise,By the time all characters have skill trees we will have flying cars. Probably earlier then the skilltrees,"Notes: not all characters have skill trees due to the game development being an ongoing process
+
+
+Sarcasm to complain about how long it takes for characters to get a skill tree"
+Noise,Wigfrid died for willow and willow avenged her. So touching 😓🥀,
+Noise,Aw i am a base builder who loves starting from scratch and making the perfect base. But i live quite far so there’d be a lot of lag :(,"Notes: mention of lag does not make this technical, and emoticon points to noise"
+Noise,"For me, he is always by…I forgot the name…. The card game- playing joker thingy. Best wishes for you. CHESTER, IF YOURE READING THIS, PLEASE KEEP DOING WHAT YOURE DOING AND BE PREDICTABLE I LOVE YOU SO MUCH",
+Noise,"I love warly solely for his quotes (he is just such a sweet person). I'm pretty bad, so everytime I hear that he is OP, I just sigh but you are probably right",
+Noise,Ive honestly never tried warly but now im inspired. My goto is wigfrid or wendy,
+Noise,"If you'd have more fun, rollback. It's a game",
+Noise,"Elsewhere. I don't know the answer, but I feel like meteor fields are never static and so odds are you will certainly end up with meteors hitting your base.",
+Noise,"I don't know, but if farming suits the way you like to play, does it really matter?",
+Noise,"That feels like such a lazy design choise. You don't have to teach me everything, but atleast show me how to make my first stick and hut.",
+Noise,"Maybe the game isnt for you if you need to die on that hill, justifying how bad the game is because you died once.
+
+Get over it and adapt, learn that ""dark is bad, maybe i should get a TORCH FROM THE FCKIN QUICK MENU ON THE SIDE, MAYBE THERE IS A REASON THAT THERE IS A FCKIN TORCH???"" or refund, play something simpler.
+
+Its a game where you die a lot, figuring out the mechanics, its one of the appeals of this game.
+If you require handholding to figure stuff out then this game aint for you.
+You can watch a beginner tutorial, quick guide on youtube and put in the bare minimum effort yourself or not, refund your 2 bucks and miss out on a damn good game.",
+Noise,R.I.P DST (April 2016 - May 2026),
+Noise,"Can somebody PLEASE make a high quality nuclear bomb modpack, with a nuclear bomb, a whole screen light up thingy, a countdown, bunkers, and like aftereffects like terrain turning into goo or something, and slime monsters and radiation and stuff, that would be a mod that would get so popular. PLEASE make a nuke mod that's actually good quality. Maybe a missile launch system, radiation suits, launch codes, stuff like that.","Notes:
+Unrelated to actual game"
+Noise,tbh mandrakes r ez to get,"Notes:
+Slang and brevity suggests sarcasm"
+Noise,"That's not gonna be enough man, just look at the number of things on the floor. Three would be better",
+Noise,I feel itchy,
+Noise,"hold F for 10 hours ,
+
+boss died go hold F into the next boss for 20 hours",
+Noise,Bases rhymes with oasis. Coincidence? Or ...,
+Noise,"Oh ic lol, I'm the OP for the top one. Maybe this is your sign to base in the Oasis ;)",
+Noise,"Yeah, it's not worth it to me. Oasis sucks and I'll die on this hill.",
+Noise,You are indeed missing something,
+Noise,"it must taste good
+
+its dont starve even slurtles need to eat",
+Noise,"Silk and gland is just like dust for me most of the time, just started this world and already got 2 chests full of silk and gland thats starting to annoy me",
+Noise,BURN IT 🔥🔥,
+Noise,Sorry I don't know where it is I don't play this game,
+Noise,Grass geckos are unreliable source of grass in caves as they can and definitely will go extinct because of earthquakes. Either remove the chance of replanted grass tufts to turn into grass geckos or give them natural heath regen. This is unbearable.,
+Noise,"hear me out but what if Wolfgang is afraid of Wendy because he thinks she's a vampire? do I just think this is because the image is hilarious? perhaps but there is a good reason for me thinking it. personally I like to imagine Wendy has fangs or just pronounced canine teeth, and it's pretty obvious that she is pale as hell.",
+Noise,now ur a fish,
+Noise,"I can read, I read several of your replies repeatedly citing animals & children & unplugged cords. Mocking me for directly referring to your own words is, a choice.
+
+But you’re right, it’s DEFINITELY the famously TOXIC don’t starve community that is the problem here. It’s definitely not your complete lack of being able to emotionally process someone disagreeing with you. Have a good day buddy.",
+Noise,"I’m baffled by these things and I have no idea what to do with them. I went into the fumarole biome just to fill in my map and curse the cruddy RNG that put the atrium big tentacle deep biome, and then bless the RNG that put the atrium juuuust close enough to the muddy biome that I can use the lazy explorer.
+
+I’m definitely interested in knowing what to do with these things.",
+Noise,twiggy tree worlds are the worst.,
+Noise,"10 hour fight, where are you sitting??",
+Noise,"Wendy just because she’s my first ever character to play, her bond with Abigail is adorable too! She’s super easy to play and understand as a first time player too
+
+I also named my two pet rats after Wendy and Abigail",
+Noise,"Back during OG DS I used to think Woodie was a Midwestern stereotype or from Alaska which I'm from so I played him. When I found out he was Canadian I just grew attached to Lucy and once he got his reworks I found him really fun. Is he the best? Probably not, and he's probably not the most efficient but I just enjoy his character and play style. Honorable mention to Wilson the boys been there since the beginning and I used to cosplay as him!",
+Noise,"Nice, whats next? Misery Toadstool with Wes without chopping trees and your only weapon is a fishing rod? If you do that without cheats, normal gameplay recorded, then I can give you 10 dollar. Why only 10? I am broke. 🥲",
+Noise,all fun n jokes til u get 9million catcoon dens close to gloomy,
+Noise,Yes. In my case is because I don't like how Klei did the skill trees. The only good one is Walter if we ignore how dumb is ranged combat in this game...,
+Noise,THAS GONA BE A INTERESTING SPRING FOR YOU,
+Noise,This is so funny I can't-,
+Noise,How do we tell him.,
+Noise,"""Title explains it"" 💩",
+Noise,"Oasis desert forever ❤️ ❤️ ❤️
+
+no wildfires",
+Noise,Make grass armor and throw out the skeleton armor👍,
+Noise,"Nah, a beginner friendly way is to kill afw and get a lv3 shadow maul while playing WX and get the spin cycle circuits.",
+Noise,"Dude im joking.
+
+I'm not even sure its possible to get a lvl 3 maul before first deerclops.
+
+I was joking by making an obviously impossible scenario to kill deerclops
+
+Also it's theoretically possible with a winter start to get mosling feathers before deerclops.",
+Noise,Damn gratulations you did the thing I could never do have friends that dont ragequit dont starve(and not get griefed by bearger). Cool art,
+Noise,Did you find him yet? Im worried about him in every universe :'(,
+Noise,"Rain, theres is too much rain and You Will be crazy all the time",
+Noise,"Heres one! This game isnt for you, play another one",
+Noise,"An ""Ask me anything"" post eh... Alright.
+
+Is mayonaise an instrument?",
