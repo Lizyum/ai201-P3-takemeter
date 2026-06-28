@@ -130,6 +130,7 @@ Technical
 Experiential
 Strategy
 Noise
+```
 
 ---
 
@@ -219,7 +220,11 @@ All 200 dataset instances used to train TakeMeter were manually reviewed and ann
 
 ## 🚀 Deployed Interface
 
-TakeMeter includes a locally deployable, web-based UI built using **Gradio** to allow content moderators to run manual post text through the model dynamically.
+TakeMeter includes a locally deployable, web-based interface built with **Gradio** that allows content moderators to classify Don't Starve Together forum posts using the fine-tuned model.
+
+The application automatically downloads the latest version of the model from the project's public Hugging Face repository the first time it is launched. After the initial download, the model is cached locally for faster subsequent startups.
+
+> **Note:** The fine-tuned model is hosted on Hugging Face Hub rather than in this repository because the model checkpoint exceeds GitHub's file size limits. The application downloads the model automatically when it is first run.
 
 ### How to Run the App Locally
 
@@ -251,3 +256,20 @@ To prevent dependency conflicts with your global Python installation, initialize
     ```
 
 4. **Access the App**: Open your web browser and navigate to the local link outputted in your terminal (typically http://127.0.0.1:7860).
+
+### How the Application Works
+
+1. Paste a Don't Starve Together forum post into the input text box.
+2. The application tokenizes the text using the same tokenizer employed during model training.
+3. The fine-tuned DistilBERT classifier predicts one of four categories:
+   - **Technical**
+   - **Experiential**
+   - **Strategy**
+   - **Noise**
+4. The interface displays the predicted category along with the model's confidence score.
+
+## 🤗 Model
+
+The fine-tuned DistilBERT model used by TakeMeter is hosted on Hugging Face Hub and is downloaded automatically the first time the application is launched.
+
+**Model Repository:** https://huggingface.co/lizyum/takemeter-model

@@ -47,6 +47,27 @@ Discourse ranges from beginners desperately seeking basic survival mechanics to 
 
 ---
 
+### Applied Labeling Decisions (Milestone 3 Edge Cases)
+
+To test these boundaries, I encountered three specific data points during the dataset review that proved exceptionally difficult to classify. Below is the documentation of my final decisions for each:
+
+#### 1. The "Nuclear Bomb Mod" Suggestion
+* **The Post:** *"Can somebody PLEASE make a high quality nuclear bomb modpack, with a nuclear bomb, a whole screen light up thingy, a countdown, bunkers, and like aftereffects like terrain turning into goo or something, and slime monsters and radiation and stuff... PLEASE make a nuke mod that's actually good quality..."*
+* **The Difficulty:** On the surface, this reads like a genuine modding suggestion, which a standard classifier might loop into *Technical* or *Strategy* because it discusses game additions. However, *Don't Starve Together* is a gothic, wilderness survival sandbox; dropping a nuclear weapon into the mechanics is completely exaggerated, structurally non-serious, and knee-jerk. 
+* **My Decision:** **Hyperbole & Noise**. Because the suggestion lacks literal or actionable utility for core gameplay and relies on highly dramatic formatting ("PLEASE"), it fits the pattern-match for community noise rather than structural strategy.
+
+#### 2. Settings Modification vs. Optimization Guide
+* **The Post:** *"Automatic health adjust can scale the game for single player for boss hp. Too many items plus gives you 1 hit kill commands if you just want to skip it."*
+* **The Difficulty:** This post straddles the line between *Strategy* and *Technical*. It mentions specific ways to handle boss HP, which looks like an instructive strategy guide at first glance. 
+* **My Decision:** **Technical & Anomalous**. I classified this as technical because the user isn't explaining an in-game combat strategy or kiting pattern. Instead, they are describing how to change a server setting and utilize backend developer commands to alter how the software scales. It is an instruction on system configuration rather than gameplay optimization.
+
+#### 3. Item Component Bragging
+* **The Post:** *"I on my new world have like 3 walking cane, 5 tam'o'shaders and 6 pan flutes all from gifts"*
+* **The Difficulty:** This data point contains heavy strategic keywords—listing top-tier items like walking canes, Tam o' Shanters, and pan flutes alongside exact numerical counts. A basic keyword match would immediately yank this into *Strategy*.
+* **My Decision:** **Experiential & Social**. Looking past the specific item names, the true intent of the player is to share a personal narrative about their luck with the game's daily skin/gift drop system. There is no instructional sequencing or analytical advice being offered; it is a purely relatable, narrative-driven observation of their world state.
+
+---
+
 ## Data Collection Sources
 
 ### Sourcing Strategy
@@ -71,7 +92,7 @@ While overall accuracy tells us how the model performs macroscopically, it is in
 * **Confusion Matrix Analysis:** I will specifically map the misclassifications between *Strategy* and *Noise* to evaluate if the fine-tuning successfully taught the model to detect sarcasm/hyperbole over raw keyword counting.
 
 ### Definition of Success
-For a 9–11 hour time constraints and a tight dataset, a **90% per-class accuracy across all four categories** will serve as the baseline threshold for production deployment. This means the model can confidently separate community noise from actionable development insights, rendering it a genuinely useful tool for community managers and QA teams.
+A **90% per-class accuracy across all four categories** will serve as the baseline threshold for production deployment. This means the model can confidently separate community noise from actionable development insights, rendering it a genuinely useful tool for community managers and QA teams.
 
 
 ## AI Tool Plan
@@ -82,9 +103,9 @@ To validate and refine my taxonomy boundaries before starting manual annotation,
 * **Refinement Process:** If the AI generates posts that cannot be cleanly categorized using my existing rules, I will immediately update the handling strategies in my `planning.md` edge cases prior to beginning data collection.
 
 ### 2. Annotation Assistance
-To accelerate the labeling process within the 9–11 hour project timeline, I will utilize an LLM to pre-label the collected dataset.
-* **Tool & Model Selection:** [e.g., ChatGPT (GPT-4o) / Claude 3.5 Sonnet / Gemini 1.5 Pro via API or Web Interface]
-* **Verification & Disclosure Tracking:** To maintain strict data integrity and comply with AI disclosure requirements, I will structure my raw dataset with a dedicated `source_type` or `is_prelabeled` boolean column. Every single automated label will be manually reviewed, verified, and corrected by me. The final dataset will track exactly which rows utilized AI pre-labeling versus entirely manual entry.
+I will utilize an LLM to pre-label the collected dataset.
+* **Tool & Model Selection:** : Gemini 3.5 Flash via Web Interface
+* **Verification & Disclosure Tracking:** To maintain strict data integrity and comply with AI disclosure requirements, I will structure my raw dataset with a dedicated `label` column. Every single automated label will be manually reviewed, verified, and corrected by me.
 
 ### 3. Failure Analysis
 Post-evaluation, I will use an AI tool to perform an audit on the model's errors to discover blind spots that aggregate macro metrics might hide.
@@ -103,16 +124,7 @@ The *Noise* category revealed the exact opposite problem. While the model had $1
 
 ---
 
-## Hyperparameter Justification & Optimization Strategy
 
-### 1. Epochs & Tracking the Sweet Spot
-I set the training duration to **5 epochs** after watching how the model converged during my initial trial-and-error runs. My main cue was tracking the validation loss alongside accuracy; I looked for the exact inflection point where the validation loss flattened out and stopped dropping. I stopped at 5 epochs because it gave the model enough passes to adapt to the community's unique vernacular without running it so long that it began blindly memorizing the training samples.
-
-### 2. Batch Size Reduction for Granular Learning
-I chose to scale the batch size down from **16 to 10** to force more frequent weight updates per epoch. Because my dataset is small (~200 examples), a large batch size meant the model wasn't adjusting its parameters often enough to catch subtle context. Lowering the batch size gave the model more granular optimization steps, which was essential for parsing edge cases where identical keywords (like game-specific nouns such as *"Crockpot"*) appeared across entirely different categories, like strategy guides versus casual stories.
-
-### 3. Balancing Learning Rate and Regularization (Weight Decay)
-I pushed the learning rate up to **$3 \times 10^{-5}$** because the baseline model was too conservative and needed a stronger nudge to prioritize domain-specific patterns. However, I knew a faster learning rate on a small dataset risks creating hyper-confident, brittle decision boundaries. To balance this, I intentionally paired it with an elevated weight decay of **0.05**. This combination allowed the model to rapidly pick up on the *Don't Starve Together* slang while forcing its internal weights to stay lean, preventing it from becoming over-confident on niche training phrases so it could handle the unseen test set.
 
 
 
